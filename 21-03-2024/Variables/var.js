@@ -6,7 +6,7 @@ var a = 20;
 
 // var a = null;
 
-// console.log(a);
+console.log(a);
 
 // console.log(a);
 
