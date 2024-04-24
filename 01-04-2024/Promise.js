@@ -4,7 +4,7 @@ async function execute() // Not mandatory to use async without async also it wil
 
 let p = new Promise((resolve, reject) =>
 {
-    setTimeout(() => 
+    setTimeout( () => 
     {
         resolve("Navigated to Homepage"); // when successful
         reject("Error"); // when error

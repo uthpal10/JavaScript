@@ -11,6 +11,7 @@ function sample()
         var g = 11;
         let h = 22;
         const i = 33;
+        console.log(b); // var is function scoped if it is declared inside function
     }
     // console.log(g); // able to access because var is outer scoped for sample
     // console.log(h); // Not able to access outside the block 

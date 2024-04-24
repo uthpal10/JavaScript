@@ -23,6 +23,8 @@ setTimeout(() =>
     console.log("Log out successful");
 }
 
-// Source code -- call stack -- executed line by line in call stack -- if it encounters any timeout methods (set interval and set timeout)
+// Source code -- call stack -- executed line by line in call stack -- 
+// if it encounters any timeout methods (set interval and set timeout)
 
-// timeout methods will be moved to node/web api - (provided by browsers) - call back queue - [event loop] - call stack is empty 
+// timeout methods will be moved to node/web api - (provided by browsers) -- 
+// call back queue - [event loop] - call stack is empty 
