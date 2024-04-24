@@ -1,5 +1,4 @@
 // unpack the values from an array and storing it in the variables
-// Values separated by ,(comma's)
 let arr = [1,2,3,4]
 let [a,b,] = arr;
 console.log(a,b);

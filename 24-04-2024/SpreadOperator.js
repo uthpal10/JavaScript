@@ -1,4 +1,5 @@
 // Expand an array into all its elements basically unpacking all the array elements at once
+// Values separated by ,(comma's)
 let arr = [3,4,5,6];
 console.log(...arr);
 
