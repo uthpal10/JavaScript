@@ -3,7 +3,7 @@
 // variables separated by ,(comma's)
 let arr = [3,4,5,6];
 let [a,b,...others] = arr;
-console.log(a,b,...others);
+console.log(a,b,others);
 
 // Rest in Object array
 let laptop =
@@ -30,7 +30,7 @@ function add(...num) // rest parameter
     // using rest ==> pack all the elements into an array
     // console.log(num);
     let sum = 0;
-    for(let i=0; i<arguments.length; i++)
+    for(let i=0; i<arguments.length; i++) // also use num.length
     {
         // sum = sum + num[i];
         sum += num[i];
