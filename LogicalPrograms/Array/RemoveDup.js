@@ -1,19 +1,22 @@
-var arr = [10, 20, 30, 40, 20]
+const arr = [10, 20, 30, 40, 20];
 
-for(let i = 0; i<arr.length; i++)
+let abb = [];
+
+for(let i=0; i<arr.length; i++)
 {
     for(let j=i+1; j<arr.length; j++)
     {
-        if(arr[i]==arr[j])
+        if(arr[i] == arr[j])
         {
-            arr[j]=0;
+            arr[j] = 0;
         }
     }
 }
 for(let k=0; k<arr.length; k++)
+{
+    if(arr[k]!=0)
     {
-        if(arr[k]!=0)
-        {
-            console.log(arr[k]);
-        }
+        abb.push(arr[k]);
     }
+}
+console.log(abb);

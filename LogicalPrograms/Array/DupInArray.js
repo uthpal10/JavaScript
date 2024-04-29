@@ -16,6 +16,6 @@
     }
     if(count>1)
     {
-        console.log(arr[i]+" is duplicated "/*+" ---> "+count*/);
+        console.log(arr[i]+" is dupicated "/*+" ---> "+count*/);
     }
  }
