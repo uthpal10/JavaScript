@@ -20,7 +20,7 @@ let laptop =
 // console.log(laptop);
 laptop.details()
 
-// destructing of array with rest 
+// destructuring of array with rest 
 let [arr1,...otherss] = [...laptop.SaleCountry,...laptop.ram]
 console.log(arr1, otherss);
 

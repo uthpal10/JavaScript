@@ -2,31 +2,27 @@ async function execute() // Not mandatory to use async without async also it wil
 {
     console.log("Login to Application");
 
-let p = new Promise((resolve, reject) =>
-{
-    setTimeout( () => 
+    let p = new Promise( (resolve, reject) =>
     {
-        resolve("Navigated to Homepage"); // when successful
-        reject("Error"); // when error
-    }, 2000);
-})
+        setTimeout( () => 
+        {
+            resolve("Navigated to Homepage"); // when successful
+            reject("Error"); // when error
+        }, 2000);
+    })
+    await p.then( (msg) => {console.log(msg);}).catch((msg) => {console.log(msg);})
 
-await p.then((msg) => {console.log(msg);}).catch((msg) => {console.log(msg);})
-
-let p1 = new Promise((resolve, reject) =>
-{
-    setTimeout(() => 
+    let p1 = new Promise( (resolve, reject) =>
     {
-        resolve("Fetched page Title");
-        reject("Error");
-    }, 3000);
-})
+        setTimeout(() => 
+        {
+            resolve("Fetched page Title");
+            reject("Error");
+        }, 3000);
+    })
+    await p1.then( (msg) => {console.log(msg);}).catch((msg) => {console.log(msg);})
 
-await p1.then((msg) => {console.log(msg);}).catch((msg) => {console.log(msg);})
-
-{
     console.log("Logged out from Application");
-}
 
 }
 execute()
