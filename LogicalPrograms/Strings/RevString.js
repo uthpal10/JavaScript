@@ -1,10 +1,9 @@
-var s = "Uthpal"
+let str = "India";
 
-let rev = ""
+let rev = "";
 
-for(let i=s.length-1; i>=0; i--)
+for(let i=str.length-1; i>=0; i--)
 {
-    // rev = rev + s.charAt(i)
-    rev = rev + s[i]
+    rev = rev + str[i];
 }
 console.log(rev);

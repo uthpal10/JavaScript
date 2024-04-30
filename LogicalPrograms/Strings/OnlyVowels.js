@@ -1,15 +1,15 @@
-let str = 'donald';
+let str = 'AeiUnm';
 
-let res = "";
+let res = 0;
 
 for(let i=0; i<str.length; i++)
 {
-    let ch = str.charAt(i);
+    let ch = str.charAt(i).toLowerCase();
 
     if(ch=='a'|ch=='e'|ch=='i'|ch=='o'|ch=='u')
     {
-        res = res + ch;
-        console.log(ch+" is a vowel ");
+        res++;
+        // console.log(ch+" is a vowel ");
     }
  }
-//  console.log(res);
+ console.log(`Number of vowels in string ${res}`);
