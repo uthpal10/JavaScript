@@ -14,7 +14,9 @@ let arr = 'uthpal';
 //     console.log(key);    
 // }
 
-for (const key of arr)   
+let itr  = Object.entries(obj);
+
+for (const key of itr)   
 {
     console.log(key);
 }
