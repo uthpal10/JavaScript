@@ -17,6 +17,12 @@ let persondetails =
     }
 }
 
+for (const key in persondetails) 
+{
+        const element = persondetails[key];
+        console.log(element + key);   
+}
+
 // console.log(Object.values(persondetails));
 
 // --> Dot Notation
