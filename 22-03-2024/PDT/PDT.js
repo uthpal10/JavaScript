@@ -1,16 +1,16 @@
 // undefined
 let a;
-console.log(a);
+console.log(a); // undefined
 a = 'Now it is defined'
 console.log(a);
-console.log(typeof(a));
+console.log(typeof(a)); // string
 
 // number
 let b = 20
-console.log(b);
+console.log(b); // 20
 b = 20.20
-console.log(b);
-console.log(typeof(b)); 
+console.log(b); // 20.20
+console.log(typeof(b)); // number
 
 // string
 const c = 'uthpal'
@@ -21,12 +21,12 @@ let d = true
 console.log(d);
 d = false
 console.log(d);
-console.log(typeof(d));
+console.log(typeof(d)); // boolean
 
 // null
 let e = null;
 console.log(e);
-console.log(typeof(null));
+console.log(typeof(e)); // object
 
 e = 'ramesh'
-console.log(e);
+console.log(e); // ramesh

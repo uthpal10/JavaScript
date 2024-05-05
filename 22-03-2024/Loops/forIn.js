@@ -6,7 +6,7 @@ const laptop =
 {
     brand : 'lenovo', 
     model : 'Z51-70', 
-    cost : [55000,30000], 
+    cost : [55000, 30000], 
 
     details : function ()
     {
@@ -18,9 +18,10 @@ console.log(laptop);
 
 let arr = [12, 2, 3];
 
-for (const key in arr) 
+for (const key in laptop) 
 {
-    console.log(`${key} --> ${arr[key]}`);
+    console.log(key + " ==> "+ laptop[key]);
+    // console.log(`${key} --> ${arr[key]}`);
     // console.log(key);
     // console.log(arr[key]);
 
