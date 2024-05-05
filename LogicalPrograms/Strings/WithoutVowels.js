@@ -1,6 +1,6 @@
 var str = "qwerty";
 
-let res = "";
+let res = [];
 
 for(let i=0; i<str.length; i++)
 {
@@ -10,8 +10,7 @@ for(let i=0; i<str.length; i++)
     {}
     else
     {
-        res = res + ch;
-        console.log(ch+" is not a vowel ");
+        res.push(ch)
     }
 }
-// console.log(res);
+console.log("output without vowels: "+ res);
