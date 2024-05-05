@@ -16,10 +16,10 @@ console.log(modValue);
 let modValue1 = abb.filter( ele => ele % 2 === 0)
 console.log(modValue1);
 
-// console.log(abb.sort((a , b) => (a-b))); // To sort the numbers in ascending order
+console.log( abb.sort( (a,b) => (a-b) ) ); // To sort the numbers in ascending order
 // console.log(abb[0]); // returns the lowest value in array
 
-// console.log(abb.sort((a , b) => (b-a))); // To sort the numbers in descending order
+console.log(abb.sort((a , b) => (b-a))); // To sort the numbers in descending order
 // console.log(abb[0]); // returns the highest value in array
 
 console.log(arr.length); // Gets or sets the length of the array.

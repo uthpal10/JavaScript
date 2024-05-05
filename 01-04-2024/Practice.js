@@ -1,8 +1,3 @@
-{
-    console.log("App launched");
-}
+let arr = [1,2,3,4,5];
 
-{
-    console.log("Login Successful");
-}
-
+console.log( arr.slice( (a,b) => (a-b) ) );

@@ -7,9 +7,10 @@ function addTicket(count) {
 }
 
 function book(q1, q2, q3, callback1, callback2) {
-    callback1(q1, q2, login)
-    console.log("Login successful");
-
+    callback1(q1, q2, login);
+    {
+        console.log("Login successful");
+    }
     setTimeout ( () => {
         console.log("Welcome, Good to see you here!!!");
         console.log('Before booking the ticket add the ticket count');

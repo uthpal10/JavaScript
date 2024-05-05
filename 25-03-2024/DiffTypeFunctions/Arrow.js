@@ -1,4 +1,4 @@
-// Arrow function was introduced in ES6 - 2015 asto simplify in writing the functions
+// Arrow function was introduced in ES6 - 2015 as to simplify in writing the functions
 
 // Here we have avoided the curly braces and parenthesis
 let arr = a => a

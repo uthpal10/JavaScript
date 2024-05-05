@@ -25,9 +25,9 @@ const prom = Prompt()
 // // Display a message to the user
 // console.log("You are " + age + " years old.");
 
-const highest = parseInt(prom("Enter the Highest Number"));
-const lowest = parseInt(prom("Enter the lowest number"));
+const highest = parseInt(prom("Enter the Highest Number: "));
+const lowest = parseInt(prom("Enter the lowest number: "));
 
-const ran = Math.floor(Math.random() * (highest-lowest+1)) + lowest
+const ran = Math.ceil(Math.random() * (highest-lowest+1)) + lowest
 
 console.log(`The random number between ${highest} and ${lowest} is ${ran}`);

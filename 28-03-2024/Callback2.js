@@ -17,5 +17,4 @@ function perform(d1, d2, callback1, callback2)
         callback2(d1, d2, sub)
     }, 3000);
 }
-
 perform(10, 5, add, sub)
