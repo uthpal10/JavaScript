@@ -1,23 +1,18 @@
-let ch = ['u', 't', 'h', 'p', 'a', 'l', 'a', 'h'];
-
-let c = [];
-
-for(let i=0; i<ch.length; i++)
+function removeDuplicates(inputStr) 
 {
-    for(let j=i+1; j<ch.length; j++)
+    let result = '';
+    let seen = new Set();
+    for (let char of inputStr) 
     {
-        if(ch[i] == ch[j])
+        if (!seen.has(char)) 
         {
-            ch[j] = 0;
+            seen.add(char);
+            result += char;
         }
     }
+    return result;
 }
-for(let k=0; k<ch.length; k++)
-{
-    if(ch[k]!=0)
-    {
-        c.push(ch[k]);
-        // console.log(ch[k]);
-    }
-}
-console.log(...c);
+
+let inputString = "parameters";
+let outputString = removeDuplicates(inputString);
+console.log(outputString); // Output: "helo"

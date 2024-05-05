@@ -3,6 +3,13 @@ const arr = ['Australia', 'Newzealand', 'India', 'SouthAfrica']
 
 const abb = [20, 37, 41, 10, 25];
 
+console.log(abb.reduce( (accumulator, currentvalue) => accumulator + currentvalue ));
+
+// Accumulator (acc): The accumulator accumulates the callback's return values. 
+// It is the accumulated value previously returned in the last invocation of the callback, 
+// or the initial value if supplied.
+// Current Value (cur): The current element being processed in the array.
+
 let modValue = abb.map( ele => ele *2 )
 console.log(modValue);
 
