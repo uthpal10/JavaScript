@@ -1,6 +1,4 @@
-var arr = [44, 23, 56, 12, 9, 87]
-
-let temp = 0;
+let arr = [44, 23, 56, 12, 9, 87]
 
 for(let i=0; i<arr.length; i++)
 {
@@ -8,7 +6,7 @@ for(let i=0; i<arr.length; i++)
     {
         if(arr[i]>arr[j])
         {
-            temp = arr[i]
+            let temp = arr[i]
 
             arr[i] = arr[j]
 

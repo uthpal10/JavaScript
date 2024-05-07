@@ -1,4 +1,7 @@
-let arr = [10, 50, 70, 9, 80]
+let arr = [10, 50, 70, 9, 80];
+
+let minimum = Math.min(...arr);
+console.log(minimum);
 
 let min = arr[0];
 

@@ -1,8 +1,8 @@
-var arr = [20, 10, 30, 10, 40, 50, 20]
+const arr = [20, 10, 30, 10, 40, 50, 20]
 
-for(var i=0; i<arr.length; i++)
+for(let i=0; i<arr.length; i++)
 {
-    var count = 0;
+    let count = 0;
     for(let j=0; j<arr.length; j++)
     {
         if(arr[i]==arr[j])
@@ -14,7 +14,7 @@ for(var i=0; i<arr.length; i++)
             count++;
         }
     }
-    if(count>=1)
+    if(count>1)
     {
         console.log(arr[i]+" --> "+ count);
     }

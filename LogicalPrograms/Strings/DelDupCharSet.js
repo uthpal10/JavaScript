@@ -1,13 +1,14 @@
 function removeDuplicates(inputStr) 
 {
-    let result = '';
+    let result = [];
     let seen = new Set();
     for (let char of inputStr) 
     {
         if (!seen.has(char)) 
         {
             seen.add(char);
-            result += char;
+            // result += char;
+            result.push(char)
         }
     }
     return result;
@@ -15,4 +16,4 @@ function removeDuplicates(inputStr)
 
 let inputString = "parameters";
 let outputString = removeDuplicates(inputString);
-console.log(outputString); // Output: "helo"
+console.log("output: "+ outputString); // Output: "helo"

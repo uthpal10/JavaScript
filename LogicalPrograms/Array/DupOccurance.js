@@ -1,9 +1,9 @@
-var arr = [10, 20, 30, 20, 40, 10]
+let arr = [10, 20, 30, 20, 40, 10]
 
-for(var i=0; i<arr.length; i++)
+for(let i=0; i<arr.length; i++)
 {
-    var count = 0;
-    for(var j=0; j<arr.length; j++)
+    let count = 0;
+    for(let j=0; j<arr.length; j++)
     {
        if(arr[i]==arr[j])
        {

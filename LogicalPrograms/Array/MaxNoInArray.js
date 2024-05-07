@@ -1,4 +1,7 @@
-let arr = [100, 50, 89, 99, 101]
+let arr = [100, 50, 89, 99, 101];
+
+let maximun = Math.max(...arr);
+console.log(maximun);
 
 let max = 0;
 

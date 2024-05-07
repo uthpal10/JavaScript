@@ -1,15 +1,8 @@
-const arr = "99123766678";
+let arr = [1,2,3]
+let abb = [4,5,6]
 
-let [...oth] = arr;
-console.log(oth);
+let acc = [...arr,...abb]
+console.log(acc);
 
-let res = [];
-
-oth.map( ele =>
-{
-    if(ele%2==0)
-    {
-        res.push(ele)
-    }
-})
-console.log(res);
+let [...v] = arr;
+console.log(v);
