@@ -1,11 +1,18 @@
-const str = "welcome to coding beauty";
+let s = 'wELCOME to coding beauty';
 
-console.log(`Input --> ${s}`);
+let s1 = s.split(" ");
 
-let splitted = str.split(" ");
-
-for(let i=0; i<splitted.length; i++)
+for(let i=0; i<s1.length; i++)
 {
-    splitted[i] = splitted[i][0].toUpperCase() + splitted[i].substring(1);  
+    if(i==0)
+    {
+        s1[i] = s1[i].toLowerCase();
+        s1[i] = s1[i][0].toUpperCase() + s1[i].substring(1);
+    }
+    else
+    {
+        s1[i] = s1[i][0].toUpperCase() + s1[i].substring(1);
+    }
+    
 }
-console.log(`output --> ${splitted.join(" ")}`);
+console.log(s1.join(" "));
