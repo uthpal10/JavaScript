@@ -12,5 +12,5 @@ function sortInSingleLoop(arr)
     }
     console.log(arr);
 }
-const input = [23, 43, 1, 54, 4, 12,];
+const input = [23, 43, 1, 54, 4, 12];
 sortInSingleLoop(input);
