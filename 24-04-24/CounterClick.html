@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Counter Example</title>
+</head>
+
+<body>
+  <h1>Counter Example</h1>
+  <p>Counter Value: <span id="counter">0</span></p>
+  <button id="incrementButton">Increment Counter</button>
+
+  <script>
+    // Get the counter element and the increment button
+    const counterElement = document.getElementById('counter');
+    const incrementButton = document.getElementById('incrementButton');
+
+    // Initialize the counter value
+    let counterValue = 0;
+    counterElement.textContent = counterValue;
+
+    // Add a click event listener to the increment button
+    incrementButton.addEventListener('click', () => {
+      // Increase the counter value by 1
+      counterValue++;
+      // Update the counter element's text content with the new value
+      counterElement.textContent = counterValue;
+    });
+  </script>
+</body>
+</html>
