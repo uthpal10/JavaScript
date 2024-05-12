@@ -9,6 +9,9 @@ else
     console.log("Not eligible");
 }
 
+let res = age >=18 ? 'Eligible for voting': 'Not eligible for voting';
+console.log(res);
+
 var sports = "footbll";
 
 if(sports == "cric")

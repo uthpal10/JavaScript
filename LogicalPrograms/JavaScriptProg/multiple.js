@@ -12,5 +12,5 @@
 // const input = 70;
 // multiple(input);
 
-let no = 70;
+let no = 70; 
 console.log(no%5==0 || no%10==0 ? `${no}` : `Not Divisible`);

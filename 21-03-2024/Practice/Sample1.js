@@ -1,3 +1,5 @@
+// "use strict";
+
 let a = 20;
 delete a;
 console.log(a);
