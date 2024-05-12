@@ -1,21 +1,19 @@
-// It iterates over values of an iterable object 
-
+// It iterates over values of an iterable objects
 // used with Array, Strings, Maps, sets
+// Returns the values of iterable objects 
 
-// Returns values of the iterable object 
-
-const abb = ['hello', 12] // 'uthpal'
+const abb = ['hello', 12];
 
 let map = new Map();
-map.set('Uthpal', 'Engineer')
-map.set('Cricket', 'SPort')
+
+// To add elements into the map
+map.set('Uthpal', 'Engineer'); 
+map.set('Cricket', 'Sport');
+
+// To get the values from map  
 console.log(map.get('Uthpal'));
 
-for (const key of abb) 
+for (const key in abb) 
 {
-//    if(i=='hello')
-//    {
-//         console.log(i);
-//    } 
-   console.log(key);
+   console.log(key+ " : " +abb[key]);
 }
