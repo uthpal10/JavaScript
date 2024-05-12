@@ -8,7 +8,7 @@ let persondetails =
     details : function () 
     {
         console.log
-        ("Person details are"+" name --> "+this.pname+" "+" age --> "+this.age);    
+        ("Person details are : "+" name --> "+this.pname+" "+" age --> "+this.age);    
     },
     spouse : 
     {
@@ -16,11 +16,12 @@ let persondetails =
         sage : 24
     }
 }
+persondetails.details();
 
 for (const key in persondetails) 
 {
         const element = persondetails[key];
-        console.log(element + key);   
+        console.log(key+ " ==> " +element);   
 }
 
 // console.log(Object.values(persondetails));

@@ -27,4 +27,4 @@ setTimeout(() =>
 // if it encounters any timeout methods (set interval and set timeout)
 
 // timeout methods will be moved to node/web api - (provided by browsers) -- 
-// call back queue - [event loop] - call stack is empty 
+// call back queue - [event loopwill monitor] - when call stack is empty == these timeout methods will move to callstack 
