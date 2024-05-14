@@ -20,3 +20,17 @@ for(let k=0; k<arr.length; k++)
     }
 }
 console.log(abb);
+
+// Using set
+let res = new Set(arr);
+console.log(res);
+
+// Using filter
+arr.filter( ele =>
+{
+    if(!abb.includes(ele))
+    {
+        abb.push(ele);
+    }
+});
+console.log(abb);

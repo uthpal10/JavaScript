@@ -12,7 +12,7 @@ Object.defineProperty(phone, 'id',
 })
 
 // console.log(phone);
-// console.log(Object.keys(phone));
+console.log(Object.keys(phone));
 
 // Determines whether an object has a property with the specified name. --> returns value in boolean
 console.log(phone.hasOwnProperty('brand')); 

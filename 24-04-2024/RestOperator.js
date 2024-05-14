@@ -41,6 +41,6 @@ add(1,2,3,4,5,6,7,8,9)
 add(1,3,5,7,9)
 add(2,4,6,8)
 
-// using spread ===> unpacking the elements from an array
 let r = [10,11,12,13,14,15];
-add(...r)
+// using spread ===> unpacking the elements from an array
+// add(...r)

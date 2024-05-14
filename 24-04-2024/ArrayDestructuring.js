@@ -24,6 +24,7 @@ console.log(fir, sec);
 // console.log(fir);
 // console.log(sec);
 
+
 // swapping the values
 let [second, first] = [fir, sec]
 console.log(first, second);
