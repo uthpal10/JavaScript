@@ -10,7 +10,7 @@ if(no === 1)
 }
 else if(no > 1)
 {
-    for(let i=2; i<no; i++)
+    for(let i=2; i<=no; i++)
     {
         if(no % 2 == 0)
         {
@@ -18,7 +18,7 @@ else if(no > 1)
             break;
         }
     }
-    let res = isPrime ? `${no} is Prime Number` : `${no} is not a Prime Number`;
+    let res = isPrime  ? `${no} is Prime Number` : `${no} is not a Prime Number`;
     console.log(res);
 }
 else

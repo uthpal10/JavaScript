@@ -1,5 +1,5 @@
 function replaceUppercaseT(inputString) {
-    const replacedString = inputString.replace(/[A-Z]/g, 'T');
+    const replacedString = inputString.replace(/[A-Z]/g, 'U');
     return replacedString;
 }
 
