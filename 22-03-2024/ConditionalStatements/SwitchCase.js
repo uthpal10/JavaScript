@@ -2,11 +2,11 @@ let amount = 500;
 
 switch (amount) 
 {
-    case amount : 500
+    case 500 : 
     console.log("Minimum Balance is not maintained");
     break;
     
-    case amount : 1000
+    case 1000 : 
     console.log("Minimum Balance is maintained");
     break;
     

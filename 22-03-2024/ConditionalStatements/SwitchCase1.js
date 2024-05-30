@@ -1,36 +1,36 @@
 let day = new Date().getDay();
-
+console.log(day);
 // let day = new Date().getMinutes();
 
 switch (day) 
 {
-    case day:0
+    case 0 :
     console.log("Today is Sunday"); 
     break;
     
-    case day:1
+    case 1 :
     console.log("Today is Monday"); 
     break;
 
-    case day:2
+    case 2 :
     console.log("Today is Tuesday"); 
     break;
     
-    case day:3
+    case 3 :
     console.log("Today is Wednesday"); 
     break;
     
-    case day:4
+    case 4 :
     console.log("Today is Thursday"); 
     break;
     
-    case day:5
+    case 5 :
     console.log("Today is Friday"); 
     break;
     
-    case day:6
+    case 6 :
     console.log("Today is Saturday");
 
     default:
-    console.log("Waiting for the weekend");
+    console.log("Input not correct");
 }

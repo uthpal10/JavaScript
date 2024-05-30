@@ -1,4 +1,4 @@
-let a =[1,3,5,7,9];
+let a =[1,3,8,7,9];
 console.log(...a);
 let a1 = [];
 for(let i=1; i<10; i++)

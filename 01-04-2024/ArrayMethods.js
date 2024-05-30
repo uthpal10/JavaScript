@@ -3,6 +3,23 @@ const arr = ['Australia', 'Newzealand', 'India', 'SouthAfrica']
 
 const abb = [20, 37, 41, 10, 25];
 
+// Performs the specified action for each element in an array. returns ==> undefined
+abb.forEach( (values, index, arrays) => 
+{
+    console.log(values+2, index, arrays);
+});
+
+// Returns a copy of a section of an array. For both start and end, a negative index can be used to indicate an offset
+//  from the end of the array. For example, -2 refers to the second to last element of the array.
+let res = abb.slice(1);
+console.log(res);
+
+const a = [1,2,3]
+const b = [4,5,6,[7,8]];
+// Combines two or more arrays. This method returns a new array without modifying any existing arrays.
+const c = a.concat(b);
+console.log(c);
+
 console.log(abb.reduce( (accumulator, currentvalue) => accumulator + currentvalue ));
 
 // Accumulator (acc): The accumulator accumulates the callback's return values. 

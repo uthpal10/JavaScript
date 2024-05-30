@@ -1,11 +1,11 @@
 // standard function hoisting
-// add(2,2)
-// function add(a,b) 
-// {
-//     console.log(z);
-//     var z = "uthpal"
-//     console.log(a+b);
-// }
+add(2,2)
+function add(a,b) 
+{
+    console.log(z);
+    var z = "uthpal"
+    console.log(a+b);
+}
 // add(2,2)
 
 //  Function expression hoisting
