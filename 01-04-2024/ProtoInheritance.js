@@ -11,13 +11,17 @@ let laptop =
         console.log(`The laptop details are ${this.Brand} ${this.Model} ${this.CPU} ${this.Ram}`);
     }
 }
+console.log(laptop);
 
 // object.create() to create the objects with same proptotype --> Child object
+
 let laptop1 = Object.create(laptop)
-console.log(laptop1);
+console.log(laptop1);  // {} empty object with properties of old / Parent object
+
 laptop1.Brand = 'Lenovo';
 laptop1.Model = 'Z 51-70';
 console.log(laptop1); // Overriding --> It will override the properties in parent object
+
 laptop1.details(); // Inheitance --> Inherit the property which is not available in the child from the parent
 
 console.log(Object.getPrototypeOf(laptop1)); // Returns the prototype of an object.
