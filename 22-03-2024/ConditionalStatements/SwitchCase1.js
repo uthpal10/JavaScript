@@ -1,6 +1,5 @@
 let day = new Date().getDay();
 console.log(day);
-// let day = new Date().getMinutes();
 
 switch (day) 
 {

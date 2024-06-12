@@ -30,8 +30,8 @@ function add()
     console.log(b);
     console.log(c);
     console.log(a2);
-    // console.log(b2); // Not able to access
-    // console.log(c2); // Not able to access
+    // console.log(b2); // Not able to access outside block
+    // console.log(c2); // Not able to access outside block
 }
 // console.log(a2); // can't access a2 which is function scoped
 add()
